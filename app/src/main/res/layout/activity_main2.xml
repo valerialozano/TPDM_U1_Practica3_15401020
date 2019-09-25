@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E9FFDE3B"
+    tools:context=".Main2Activity">
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/five"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="TIPS \nTO BUILD A\n LANGUAJE \n LEARNING \n HABIT "
+        android:textColor="#C6000000"
+        android:textSize="57dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:background="#EE009688"
+        android:rotation="-5"/>
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="#DAE91E63"
+        android:rotation="-5"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+ free\n New Habit \n Tracket!"
+            android:textColor="#C6000000"
+            android:textSize="25dp"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="35dp"
+            />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/note"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>
